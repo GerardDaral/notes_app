@@ -1,0 +1,46 @@
+name: notes_app
+description: A Flutter Notes app using Bloc and HydratedBloc.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.3
+  hydrated_bloc: ^9.1.0
+  path_provider: ^2.0.14
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+name: minimal_note_app
+description: A minimal note app using Flutter Bloc and Hive.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^9.1.0
+  hive: ^2.2.3
+  hive_flutter: ^1.2.0
+  path_provider: ^2.1.12
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  hive_generator: ^2.1.0
+  build_runner: ^2.4.6
